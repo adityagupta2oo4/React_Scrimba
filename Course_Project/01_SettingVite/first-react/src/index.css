@@ -1,0 +1,57 @@
+
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  height: 91;
+  background-color: #21222A;
+
+
+}
+.logo{
+  margin-right: 10px;
+  width: 25px;
+  margin-left: 10px;
+}
+.logo-text{
+  font-size: 22.25px;
+  font-weight: 700;
+  color:#00D8FF ;
+}
+
+.Main-content{
+  max-width: 40%;
+  margin: 10% 30% 5% 30%;
+  background-image: url(/src/assets/image.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 80% ;
+  background-size: 6rem;
+}
+
+.list-elem{
+  text-decoration-color: #00D8FF;
+  margin: 10px 0px 10px 0px;
+}
+
+.fact-list > li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
