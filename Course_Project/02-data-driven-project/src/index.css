@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0; 
+  /* 1 rem is 16px with respect to html root */
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10%;
+  background-color: #F55A5A;
+  justify-content: center;
+
+}
+
+.globeImage{
+  width: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+header > p{
+  color: aliceblue;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.Card{
+  background-color: rgb(253, 254, 254);
+  height: 175px;
+  width: 60%;
+  max-width: 60%;
+  margin: 3% 20% 0 20%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1.5px solid rgba(153, 152, 152, 0.591);
+  padding-bottom:2%;
+  overflow: auto;
+
+}
+.dest-image{
+  width: 125px;
+  height: 175px;
+  border-radius: 5%;
+
+}
+.card-detail{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 2vh;
+  margin-left: 4vb;
+
+}
+
+.Marker-image{
+  width: 2vb;
+  height: 2vh;
+}
+.Top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.Top > a{
+  color:#918E9B ;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-left: 2vb;
+}
+.Top > p{
+  font-weight: 400;
+  font-family: Inter;
+  font-size: 0.8rem;
+  letter-spacing: 17%;
+  margin-left: 2vb;
+}
+
+.card-detail > h1{
+  font-weight: 700;
+  font-family: Inter;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1vh;
+}
+
+.date{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 0%;
+
+}
+
+.dest-detail{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-top: 2vh;
+
+}
+
+
+
+
+
+
